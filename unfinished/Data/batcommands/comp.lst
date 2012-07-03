@@ -1,0 +1,25 @@
+DOS ir naujesnë OS<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Comp [<i>d1</i>] [<i>d2</i>] [/D] [/A] [/L] [/N=<i>numeris</i>] [/C]  [/OFF[LINE]]</dt>  <dd>
+
+</dd>  Ði komanda palygina du failus ir parodo skirtumus tarp jø.<br>
+  Ðtai komandos parametrø paraðymas:  <dt>
+  <dl>
+  <dd>
+
+<br>
+  <i>d1</i> nurodo pirmo failo vietà ir vardà palyginimui<br>
+  <i>d2</i> nurodo antro failo vietà ir vardà palyginimui<br>
+  /D parodo skirtumus deðimtaniame formate<br>
+  /A parodo skirtumus ASCII formate<br>
+  /L parodo eiluèiø numerius, kurie skiriasi<br>
+  /N=<i>numeris</i> palygina tik nurodytà skaièiø eiluèiø, kiekviename faile<br>
+  /C nepaisoma ar raidës didþiosios ar maþosios, kai lyginami failai<br>
+  /OFF[LINE] nepraleidþia failø su OffLine atributu.</dd>  </dl>  </dt> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  comp a.txt a1.txt</dt> </dl>

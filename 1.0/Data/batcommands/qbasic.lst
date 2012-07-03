@@ -1,0 +1,25 @@
+DOS 5 ir naujesnës OS, jeigu tokia komanda yra ádiegta.<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+QBasic [/B] [/EDITOR] [/G] [/H] [/MBF] [/NOHI] [[/RUN][<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>]<br>
+  </dt>  <dd>
+
+ Vykdo QBasic interpretatoriø.<br>
+  Komandos parametrai:  <dl>
+  <dt>
+[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i> nurodo failo  vardà, kurá reikia atidaryti<br>
+  /B startuoja QBasic'à monochrominiame reþime<br>
+  /EDITOR startuoja MS-DOS Redaktoriø<br>
+  /G CGA ekranams<br>
+  /H rodo maksimalø eiluèiø skaièiø vartotojo ekranui<br>
+  /MBF konvertuoja funkcija MKS$, MKD$, CVS, ir CVD á MKSMBF$,  MKDMBF$, CVSMBF, ir á CVDMBF.<br>
+  /NOHI jeigu neveikia kitaip naudokite ðá raktà<br>
+  /RUN vykdo nurodytàjà QBasic programà</dt>  <dd>
+
+<br>
+  </dd>  </dl>  </dd>  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  qbasic /run browser.bas</dt> </dl>

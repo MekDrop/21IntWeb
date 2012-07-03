@@ -1,0 +1,13 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Call failas [parametrai]</dt>  <dd>
+
+ Ði komanda vykdo kità BAT failà, nenutraukdama pirmojo darbo.<br>
+  Ðià komandà rekomenduojame naudoti tik tada kai jûsø BAT failø projektas bus  naudojamas senesnëje operacinëje sistemoje jaip DOS 6.</dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  call c:\autoexec.bat</dt> </dl>

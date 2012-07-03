@@ -1,0 +1,18 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Attrib [[+H|-H] [+S|-S] [+R|-R] [+A|-A] failas] [/S]</dt>  <dd>
+
+ Ði komanda parodo arba nustato failo ar katalogo atributus, pvz.:  tik skaitymui (<i>read only</i>). Jeigu niekas neparaðyta po komandos, parodomas  visi darbiniame kataloge esantys failai ir jø atributai.<br>
+  Jeigu komandos gale yra priraðytas raktas /S, komandos veiksmai atliekami  ne tik su darbiniame kataloge esanèiais failais bet ir su visais duomenimis,  kurie yra pakatalogiuose.</dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+rem parodoma kokius atributus turi failai kietajame diske c:\:<br>
+  attrib c:\*.* /s<br>
+rem autoexec.bat failà padaro nematomà:<br>
+  attrib c:\autoexec.bat +h<br>
+rem autoexec.bat failà padaro vël matomà:<br>
+  attrib c:\autoexec.bat -h</dt> </dl>

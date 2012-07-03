@@ -1,0 +1,22 @@
+Win2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+GrafTabl <i>xxx</i><br>
+  </dt>  <dd>
+
+ Leidþia naudoti papildomus þenklus, kuriø kodas yra <i>xxx</i>, grafiniame  reþime.</dd>  <dt>
+<br>
+  GrafTabl </dt>  <dd>
+
+Parodo informacijà.</dd>  <dt>
+<br>
+  GrafTabl /Status</dt>  <dd>
+
+Parodo dabartinià kodø lentelæ, kurioje yra papildomi  þenklai, naudojami grafiniame reþime.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  GrafTabl /Status</dt> </dl>

@@ -1,0 +1,13 @@
+Windows 2000 is naujesnë OS<br>
+ Iðorinë komanda.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ EdLin <i>failas</i></dt>  <dd>
+
+Startuoja eiluèiø teksto redaktoriø.</dd></dl><p>
+
+<b>Pavyzdys</b></p><p>
+
+EdLin c:\autoexec.bat</p>

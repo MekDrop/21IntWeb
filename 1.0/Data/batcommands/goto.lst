@@ -1,0 +1,27 @@
+Visos OS(tik BAT failuose)<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Goto <i>eilutë</i></dt>  <dd>
+
+Vykdo programà nuo nurodytosios eilutës.<br>
+Prieð naudojant komandà, reikia pavadinti eilutæ, á kurià bus perkeliamas  visas veiksmas:  <dl>
+  <dt>
+<br>
+  ...<br>
+  <i>komandos</i><br>
+  ...Goto <i>eilutespavadinimas</i><br>
+  ...<br>
+  :<i>eilutespavadinimas</i><br>
+  <i>komandos<br>
+  ... </i><br>
+</dt>  </dl>  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>@Echo Off<br>
+  Format a: /s<br>
+  If Not Errorlevel 1 Goto pabaiga<br>
+  Echo Klaida: neámanoma buvo suformatuoti diskelio<br>
+  :pabaiga<br>
+  Echo Diskelis buvo visiðkai suformatuotas</dt> </dl>

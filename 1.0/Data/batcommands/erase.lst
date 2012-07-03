@@ -1,0 +1,11 @@
+ <dl>
+  <dt>
+Del <i>failovardas</i><br>
+    Erase <i>failovardas</i></dt>  <dd>
+
+</dd>  Ðios komandos iðtrina nurodytà failà ar failus.<br>
+  <b><br>
+  </b><b>Pavyzdys<br>
+  </b>@echo off<br>
+  erase c:\temp\*.*<br>
+  del c:\autoexec.bak</dl>

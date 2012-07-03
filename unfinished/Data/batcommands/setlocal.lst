@@ -1,0 +1,9 @@
+Win2000 ir naujesnë OS<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+SetLocal<br>
+  </dt>  <dd>
+
+ Pradeda BAT failo lokalizavimà. Visos komandos, kurios keièia aplinkà,  bus daromos tik tol kol veiks tas BAT failas; visi tø komandø pakeitimai nustos  veikti, kai BAT failas.</dd> </dl>

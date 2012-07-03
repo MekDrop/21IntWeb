@@ -1,0 +1,15 @@
+Windows 2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Recover <i>failas</i><br>
+  </dt>  <dd>
+
+ Atstato informacijà ið blogo arba sugadinto disko.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+<br>
+</b>@echo off<br>
+  recover a:\laiskas.doc</dt> </dl>

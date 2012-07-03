@@ -1,0 +1,26 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+Sort [/R<font color="#006600">[EVERSE]</font>] [/+n] [&lt;] [<i>diskas</i>1:][<i>katalogas</i>1]<i>failovardas</i>1     <font color="#006600">[/M[EMORY] <i>kilobaitai</i>] [/L[OCALE] <i>lokalë</i>]     [/REC <i>áraðobaitai</i>] [/T [<i>diskas3</i>:][<i>katalogas3</i>]]</font>     [&gt; [<i>diskas</i>2:][<i>katalogas</i>2]<i>failovardas</i>2] <br>
+    <br>
+    <i>komanda</i>| SORT [/R] [/+n] [&gt; [<i>diskas</i>2:][<i>katalogas</i>2]<i>failovardas</i>2]<br>
+    <br>
+  </dt>  <dd>
+
+ Ði komanda skaito duomenis ið pasirinkto árenginio ir juos iðrikiuoja.<br>
+    Komandos parametrai:     <dl>
+      <dt>
+[<i>diskas</i>1:][<i>katalogas</i>1]<i>failovardas</i>1 failas, kurio         duomenis reikia rikiuoti<br>
+        [<i>diskas</i>2:][<i>katalogas</i>2]<i>failovardas</i>2 nurodo failà,         á kurá reikia áraðyti iðrikiuotus duomenis<br>
+        <i>komanda</i> kurios duomenis reikia iðrikiuoti<br>
+        /R[EVERSE] rikiuoja inversiðkai tvarka: nuo Z iki A, nuo 9 iki 0<br>
+        /+n iðrikiuoja duomenis priklausomai nuo pirmos failo eilutës </dt>    </dl>  </dd>  <dt>
+&nbsp;</dt>  <dd>
+
+<b>Áspëjimas: </b>þaliai paþymëti     parametrai veikia tik Windows 2000 arba naujesnëje OS</dd>  <dt>
+<br>
+    <b>Pavyzdys<br>
+    </b>@echo off<br>
+    help /? | Sort</dt></dl>

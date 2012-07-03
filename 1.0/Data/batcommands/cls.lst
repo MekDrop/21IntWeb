@@ -1,0 +1,15 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Cls<br>
+  </dt>  <dd>
+
+ Iðvalo ekranà.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  dir c:\ /s<br>
+  cls</dt> </dl>

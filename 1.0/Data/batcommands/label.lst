@@ -1,0 +1,12 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Label [<i>diskas</i>] [<i>pavadinimas</i>]</dt>  <dd>
+
+Pakeièia disko pavadinimà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>Label A: ManoFDD</dt> </dl>

@@ -1,0 +1,14 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Pause</dt>  <dd>
+
+Sustabdo programos darbà ir laukia kol bus paspaustas bet kuris klaviðas.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>@Echo Off<br>
+  Echo Paspauskite bet kurá klaviðà...<br>
+  Pause &gt; Nul</dt> </dl>

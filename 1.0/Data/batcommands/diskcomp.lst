@@ -1,0 +1,14 @@
+DOS 5 ir naujesnë<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+DiskComp [[<i>diskas1</i>:] [<i>diskas2</i>]]</dt>  <dd>
+
+Palygina dviejø diskeèiø turinius.<br>
+  </dd>  <dt>
+ <br>
+  <br>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  diskcomp a: b:</dt> </dl>

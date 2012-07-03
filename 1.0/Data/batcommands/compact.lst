@@ -1,0 +1,8 @@
+DOS ir naujesnë OS<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Compact [/C | /U] [/S[:katalogas]] [/A] [/I] [/F] [/Q] [failovardas  [...]]</dt>  <dd>
+
+</dd>  Ði komanda parodo ar failas yra suspaustas ar ne, failà supaudþia arba  atspaudþia. Veikia tik diskuose su NTFS failø sistema.</dl>

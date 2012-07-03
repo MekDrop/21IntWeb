@@ -1,0 +1,44 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+<b><br>
+Sintaksë</b><br>
+<dl>
+  <dt>
+Xcopy <i>vieta1</i> [<i>vieta2</i>] [/A | /M] [/D[:<i>data</i>]] [/P]     [/S [/E]] [/V] [/W] <font color="#009900">[/C] [/I] [/Q] [/F] [/L] [/G] [/H]     [/R] [/T] [/U] [/K] [/N] [/O] [/X]</font> [/Y|/-Y] <font color="#009900">[/Z]     [/EXCLUDE:<i>failas1</i>[+<i>failas2</i>][+<i>failas3</i>]...]</font><br>
+  </dt>  <dd>
+
+ Ði komanda kopijuoja ið pasirinkto vietos <i>vieta1</i> failus ir katalogus     á vietà <i>vieta2</i>.<br>
+    <br>
+    Komandos raktai:<br>
+    /A kopijuoja tik tuos failus, kurie turi archyvo atributà ir nepakeièia     já<br>
+    /M kopijuoja tik tuos failus, kurie turi archyvo atributà ir nutrina     archyvo atributà<br>
+    /D[:<i>data</i>] kopijuoja failus, kurie pasiketë prieð arba po     nurodytos datos. Jeigu <i>data </i>nëra nurodyta, yra kopijuojami tik     tie failai, kuriø yra naujesnës versijos kopijuoja tik tuos failus,     kurie yra yra <i>vieta1 </i>vietoje ir naujesni negu tie, kurie yra laikomi     <i>vieta2</i> kataloge<br>
+    /EXCLUDE:<i>failas1</i>[+<i>failas2</i>][+<i>failas3</i>] nurodo, kad     nekopijuoti failø, kurie vadinasi taip kaip <i>failas1 </i> arba     <i>failas2</i>, ar koks kitas nurodytas failas<br>
+    /P paklausia Jûsø kiekvienà kartà, prieð sukûriant     paskirties failà<br>
+    /S kopijuoja visus failus ir katalogus<br>
+    /E kopijuoja visus failus ir katalogus. Tas pats kas ir /S raktas.<br>
+    /V patikrina, ar gerai yra nukopijuoti failai<br>
+    /W papraðo Jûsø, paspausti bet kurá klaviðà,     prieð kopijuojant<br>
+    /C tesia kopijavimà net ir tada, kai ávyksta kokia nors klaida<br>
+    /I jeigu paskirties katalogas ar failas neegzistuoja ir yra kopijuojama daug failø, yra manoma, kad paskirtis turi bûti katalogas<br>
+    /Q nerodo failø vardø, kai kopijuoja<br>
+    /F rodo pilnus paskirties ir ðaltinio vardus, kai kopijuoja<br>
+    /L rodo failø vardus, kurie bus nukopijuoti<br>
+    /G leidþia kopijuoti failus ið uþkoduoto katalogo, á     katalogà, kuris negali bûti uþkoduotas<br>
+    /H taip pat kopijuoja nematomus ir sisteminius failus<br>
+    /R perraðo vien tik skaitymui skirtus failus<br>
+    /T sukûria katalogø struktûrà, bet nekopijuoja failø<br>
+    /U kopijuoja tik tuos failus, kurie jau yra paskirties kataloge<br>
+    /K kopijuoja failø atributus. Paprastai, xcopy komanda pratrina "vien tik skaitymui" failø atributus<br>
+    /N kopijuoja naudojant sugeneruotus trumpus vardus<br>
+    /O kopijuoja failus su nuosavybës ir ACL informacija<br>
+    /X kopijuoja failø revizijos nustatymus<br>
+    /Y nurodo, kad reikia klausti ar perraðyti nurodytà failà<br>
+    /-Y nurodo, kad reikia neklausti ar perraðyti nurodytà failà<br>
+    /Z kopijuoja tinklo failus perkrovimo reþime<br>
+    <br>
+    <b>Dëmesio:</b> þaliai paþymëti raktai veikia     tik Windows 2000 ar naujesnëje OS.</dd></dl><dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  rem kopijuoja disko a: turiná á diskà b:<br>
+  xcopy a:\*.* b:\*.*</dt> </dl>

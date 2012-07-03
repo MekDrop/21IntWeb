@@ -1,0 +1,14 @@
+Dauguma DOS versijø<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+ LoadHigh [/L:<i>regionas</i>1[,<i>minimalus-dydis</i>1][;<i>regionas</i>2[,<i>minimalus-dydis</i>2]...]     [/S]] [<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i> [<i>parametrai</i>]<br>
+    LH [/L:<i>regionas</i>1[,<i>minimalus-dydis</i>1][;<i>regionas</i>2[,<i>minimalus-dydis</i>2]...]     [/S]] [<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i> [<i>parametrai</i>]     <br>
+  </dt>  <dd>
+
+Ákrauna programà á virðutiniàjà atmintá.     Galima nurodyti á kurià bûtent atminties dalá ákelti     programà, naudojant /L raktà su parametrais. /S raktas nurodo,     kad reikia sumþainti kiek galima atminties sànaudas reikialingas     konkreèiai programai. </dd>  <dd>
+
+&nbsp;</dd>  <dt>
+<b>Pavyzdys<br>
+    </b>LH led</dt></dl>

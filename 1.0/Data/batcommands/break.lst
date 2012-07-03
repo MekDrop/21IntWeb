@@ -1,0 +1,24 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Break</dt>  <dd>
+
+Spausdina ar programos nutraukimas paspaudus Ctrl+C ájungtas ar ne.</dd> </dl> <dl>
+  <dt>
+ Break On</dt>  <dd>
+
+Nustato, kad bûtø galima nutraukti programø darbà paspaudus  Ctrl+C.</dd> </dl> <dl>
+  <dt>
+Break Off</dt>  <dd>
+
+Nustato, kad bûtø negalima nutraukti programø darbà paspaudus Ctrl+C.</dd> </dl> <dl>
+  <dt>
+Jeigu ájungti Ctrl+C klaviðai, jie geriausiai veikia su BAT failais.<br>
+  <br>
+  <b> Pavyzdys<br>
+</b>@echo off<br>
+  break<br>
+break on<br>
+  break </dt> </dl>

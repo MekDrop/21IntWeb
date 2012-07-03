@@ -1,0 +1,64 @@
+.cell {background: #f0f6fd; color: #333366; font-size: 12px; }
+.cell a { color:#fd8712; text-decoration: none;font-weight:bold;}
+.cell2 {background: #e4f1fd; color: #333366; font-size: 12px; }
+.cell2 a { color:#fd8712; text-decoration: none;font-weight:bold;}
+.header {background: #6699cc; color: white; text-align:left; font-size: 12px;}
+.header a {color: white; text-decoration: none;}
+.headermethod {background: #6699cc; color: #ffcc99; text-align:right; font-size: 12px;}
+.headermethod a {color: #ffcc99; }
+.headermethod a:hover {color: #ccffff; }
+.label {background:#f0f6fd; color: #333366; font-size: 12px;}
+.label2 {background:#e4f1fd; color: #333366; font-size: 12px;}
+.colheader {background-image: url(i/colheader_back.gif); color: #333366; font-size: 12px;}
+.separator {background:#cccc66; color: #333366; font-size: 12px;}
+.listmethod a {color: #333366; }
+.listmethod a:hover {color: #0066cc; }
+.listmethod {background:#f0f6fd; color: #333366; font-size: 10px;}
+.listmethod2 {background:#e4f1fd; color: #333366; font-size: 10px;}
+.line {background: white;}
+.boxframe {background: #333366;}
+.explTxt { font-size: 10px;color: #336699; }
+.infoText {background: #fd8712; color:white ; text-align:left; font-size: 13px; font-weight: bold; font-family: verdana,arial,helvetica; }
+.navBar {color:#fd8712 ; text-align:left; font-size: 13px; font-weight: bold; font-family: verdana,arial,helvetica; }
+.navBar a {color:#fd8712 ; text-decoration: none;}
+.navBar a:hover {color: #0066cc;}
+.category {background:#a4d3ee ;color: #333366; font-family: verdana,arial,helvetica; font-size: 12px;font-weight: bold;}
+.item { font-family: verdana,arial,helvetica; font-size: 12px}
+.userstatus { color:#333366; font-family: verdana,arial,helvetica; font-size: 10px;}
+.forumDescription {font-size: 10px;font-weight:normal;}
+.forumAccess {font-size: 10px;color:#6e7b8b;}
+a {color: #fd8712;font-size: 12px; }
+a:hover {color: #0066cc;}
+.pageframe {background: #333366;}
+.pagespacer {background: white;}
+.button {background-color : #e4f1fd;color: #333366; }
+.mainmenu {color: #333366; text-align:left; font-size: 12px;}
+.mainmenu a {color: #333366; text-decoration: none;}
+.mainmenu a:hover {color: #0066cc;}
+.statprev {color: #333366; font-size: 12px;}
+.statprev a {color: #333366; text-decoration: none;}
+.statprev a:hover {color: #0066cc;}
+.statmenupass {color: #333366; text-align:left; font-size: 12px;}
+.statmenupass a {color: #333366; text-decoration: none;}
+.statmenupass a:hover {color: #0066cc;}
+.statmenuact {background-color:#e4f1fd;color: #333366; text-align:left; font-size: 12px;}
+.statmenuact a {color: #333366; text-decoration: none;}
+.statmenuact a:hover {color: #0066cc;}
+.stintmenupass {color: #333366; text-align:left; font-size: 12px;}
+.stintmenupass a {color: #333366; text-decoration: none;}
+.stintmenupass a:hover {color: #0066cc;}
+.stintmenuact {background-color:#ffecd9;color: #333366; text-align:left; font-size: 12px;}
+.stintmenuact a {color: #333366; text-decoration: none;}
+.stintmenuact a:hover {color: #0066cc;}
+.searchres {background-color: #ffffcc;}
+.footstat { color:#333366; font-family: verdana,arial,helvetica; font-size: 10px;}
+.legend { color:#333366; font-family: verdana,arial,helvetica; font-size: 10px;}
+.jumper { color:#333366; font-family: verdana,arial,helvetica; font-size: 12px;}
+.pager { color:#333366; font-family: verdana,arial,helvetica; font-size: 10px;}
+.pager a { color:#333366; font-family: verdana,arial,helvetica; font-size: 10px; text-decoration: none;}
+.pager a:hover { color:#0066cc; font-family: verdana,arial,helvetica; font-size: 10px;}
+.pageract { color:#0066cc; font-family: verdana,arial,helvetica; font-size: 10px; font-weight: bold;}
+.newMessageHeader {background: #ffcc99; color: #333366; font-size: 12px; }
+/* different for NS4 */
+body { background: #6699CC; color: #333366; font-family: verdana,arial,helvetica; font-size: 12px;}
+.powfooter {text-align:center; font-family: verdana,arial,helvetica; font-size: 10px; color: #dddddd;text-decoration: none;}

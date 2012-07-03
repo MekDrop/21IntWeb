@@ -1,0 +1,14 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+ SYS [<i>diskas</i>1:][<i>katalogas</i>] <i>diskas</i>2:<br>
+    <br>
+  </dt>  <dd>
+
+ Ði komanda kopijuoja sisteminius failus á nurodytà diskà.</dd>  <dt>
+<br>
+    <b>Pavyzdys<br>
+    </b>@echo off<br>
+    sys c: a:</dt></dl>

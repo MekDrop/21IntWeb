@@ -1,0 +1,12 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Replace [<i>diskas1</i>:][<i>katalogas1</i>]<i>failovardas</i> [<i>diskas2</i>:][<i>katalogas2</i>]  [/A] [/P] [/R] [/W]Replace [<i>diskas1</i>:][<i>katalogas1</i>]<i>failovardas</i> [<i>diskas2</i>:][<i>katalogas2</i>]  [/P] [/R] [/S] [/W] [/U]</dt>  <dd>
+
+Pakeièia failus.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>replace a:*.prd c:\tools /a</dt> </dl>

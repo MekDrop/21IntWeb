@@ -1,0 +1,17 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ Cipher [/E | /D] [/S:<i>katalogas</i>] [/A] [/I] [/F] [/Q] [/H] [<i>pakatalogiovardas</i>     [...]]</dt>  <p>
+
+ Cipher /K</p>  <p>
+
+ Cipher /R:<i>failovardas</i></p>  <p>
+
+ Cipher /U [/N]</p>  <p>
+
+ Cipher /W:<i>katalogas</i></p>  <dd>
+
+ Pakeièia arba parodo, ar failai ir katalogai yra uþðifruoti.</dd></dl>

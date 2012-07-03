@@ -1,0 +1,27 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+Assoc</dt>  <dd>
+
+ Parodo visas failø priesagas, kurios yra susietos su kokiomis programomis.</dd> </dl> <dl>
+  <dt>
+Assoc <i>failogalune</i></dt>  <dd>
+
+Parodo su kuria programa yra susietas failas, kurio galûnë yra <i>failogalune.</i></dd> </dl> <dl>
+  <dt>
+Assoc <i>failogalune</i>=<i>programosfailovardas</i></dt>  <dd>
+
+Susieja failus, kuriø galûnë yra <i>failogalune</i> su programa, kurios  failo vardas yra <i>programosfailovardas</i>. Tiesa èia galima naudoti vietoj  programos failo vardo ir registro ðakos pavadinimà.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+rem parodomas visø susietø failø sàraðas:<br>
+assoc<br>
+rem parodoma kas turi atidaryti *.txt failus:<br>
+  assoc .txt<br>
+rem padaroma taip, kad dabar *.txt failus atidarytø Notepad programa.<br>
+  assoc .txt=notepad.exe</dt> </dl>

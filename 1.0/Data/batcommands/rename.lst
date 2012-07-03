@@ -1,0 +1,13 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Ren <i>failas failovardas<br>
+  </i>Rename<i> failas failovardas</i></dt>  <dd>
+
+Pervadina failà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>rename old.txt young.txt</dt> </dl>

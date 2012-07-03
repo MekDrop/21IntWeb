@@ -1,0 +1,17 @@
+DOS 5 ir naujesnë<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+<font color="#006600">Doskey [/Reinstall] [/ListSize=<i>dydis</i>] [/Macros[:All|     :<i>exevardas</i>]] [/History] [/Insert | /Overstrike] [/ExeName=<i>exevardas</i>]     [/Macrofile=<i>failas</i>] [<i>makrovardas</i>=[<i>tekstas</i>]]</font><br>
+    DOSKEY [/Reinstall] [/BufSize=<i>dydis</i>] [/Macros] [/History] [/Insert     | /Overstrike] [<i>makrovardas</i>=[<i>tekstas</i>]] </dt>  <dd>
+
+Palengvina darbà su komandine eilute.<br>
+    <br>
+    <b>Info: </b>þaliai paþymëta komanda veikia tik     Windows 2000 ir naujesnëje OS<br>
+  </dd>  <dd>
+
+&nbsp;</dd>  <dt>
+<b>Pavyzdys<br>
+    </b>@echo off<br>
+    doskey</dt></dl>

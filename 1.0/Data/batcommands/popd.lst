@@ -1,0 +1,22 @@
+Windows 2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+PopD<br>
+  </dt>  <dd>
+
+ Pakeièia katalogà á tà, kuris buvo iðsaugotas PushD komandà.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b><br>
+@echo off<br>
+  rem ásimenamas dabarinis katalogas:<br>
+  pushd .<br>
+  cdpause<br>
+  cd c:\Windows<br>
+  cd<br>
+  pause<br>
+  popd<br>
+  cd </dt> </dl>

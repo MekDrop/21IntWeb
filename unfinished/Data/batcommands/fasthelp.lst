@@ -1,0 +1,12 @@
+DOS operacinës sistemos<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+FastHelp <i>komanda</i></dt>  <dd>
+
+Parodo pagalbos tekstà apie paraðytàjà pagalbà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>FastHelp Dir</dt> </dl>

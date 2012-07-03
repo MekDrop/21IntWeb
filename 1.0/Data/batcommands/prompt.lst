@@ -1,0 +1,40 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+Prompt <i>iðraikðka</i><br>
+  Set Prompt=<i>iðraikðka</i></dt>  <dd>
+
+ Pakeièia komandos uþklausos tekstà á nurodytà uþklausoje.<br>
+  Uþklausoje galima naudoti ir ðiuos kintamuosius/konstantas:  <dl>
+  <dt>
+$A &amp;<br>
+  $B |<br>
+  $C (<br>
+  $D data<br>
+  $E iðeities kodas (ASCII 27 numeris)<br>
+  $F )<br>
+  $G &gt;<br>
+  $H iðtrina prieð tai buvusá þenklà<br>
+  $L &lt;<br>
+  $N dabartinis diskas<br>
+  $P dabartinis diskas ir katalogas<br>
+  $Q =<br>
+  $S (tarpas)<br>
+  $T laikas<br>
+        $V OS versijos numeris </dt>    </dl>  </dd>  <dt>
+<br>
+  Prompt<br>
+  Set Prompt=</dt>    <dd>
+
+Padaro uþklausos tekstà á "&gt;" </dd></dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+    </b><br>
+    @echo off<br>
+    prompt $SDabar$Syra$S$T$S$D,$So$Sjus$Snaudojate$S<br>
+    set prompt=%prompt%operacine$Ssistema,<br>
+    set prompt=%prompt%$Skuri$Syra$S<br>
+    set prompt=%prompt%$V.$SAktyvus$Sdiskas$Sir$Skatalogas<br>
+    set prompt=%prompt%$Sdabar$Syra$S$P$G</dt></dl>

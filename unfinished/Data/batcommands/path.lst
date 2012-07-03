@@ -1,0 +1,24 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Path <i>katalogai<br>
+  </i>Set<i> </i>Path=<i>katalogai</i></dt>  <dd>
+
+Nustato, kad failai bûtø ieðkomi pasirinktuose kataloguose.</dd>  <dt>
+<br>
+  Path ;</dt>  <dd>
+
+Iðtrina katalogø sàraðà, kuriuose bûtø ieðkomi failai.</dd>  <dt>
+<br>
+  Path</dt>  <dd>
+
+Parodo dabartiniø katalogø sàraðà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>@Echo Off<br>
+  Far<br>
+  Path %Path%;"C:\Program Files\Far"<br>
+  Far </dt> </dl>

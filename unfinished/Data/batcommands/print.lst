@@ -1,0 +1,13 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Print [/D:<i>árenginys</i>] [[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>[...]]</dt>  <dd>
+
+Spausdina nurodytàjá failà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b><br>
+Print list.txt</dt> </dl>

@@ -1,0 +1,9 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ BootCfg /<i>parametras</i> [<i>argumentai</i>]</dt>  <dd>
+
+ Ði komanda redaguoja BOOT.INI failà arba parodo informacijà     apie ákrovà.</dd></dl>

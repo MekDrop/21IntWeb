@@ -1,0 +1,35 @@
+Win95 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+<font color="#006600">Start ["<i>pavadinimas</i>"] [/D<i>kelias</i>]     [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED] [/LOW | /NORMAL | /HIGH | /REALTIME     | /ABOVENORMAL | /BELOWNORMAL] [/WAIT] [/B] [<i>komanda|programa</i>] [<i>parametrai</i>]</font><br>
+    Start [/M[inimized] | /Max[imized] | /R[estored]] /W[ait] [<i>komanda</i>|<i>programa</i>]<br>
+  </dt>  <dd>
+
+ Atidaro komandiná langà, kad atidaryta/ávykdytø nurodytà failà ar komandà.<br>
+    <br>
+    Komandos parametrai:     <dl>
+      <dt>
+"<i>pavadinimas</i>" lango pavadinimas<br>
+        /D<i>kelias </i>startinis katalogas<br>
+        /B vykdo programà, nesukûriant naujo lango<br>
+        /I kintamøjø reikðmës bus tokios, kokios yra pagal nutylëjimà <br>
+        /MIN startuoja langà sumaþintà á uþduoèiø juostà<br>
+        /M[inimized] startuoja langà sumaþintà á uþduoèiø juostà<br>
+        /MAX startuoja langà padidintà per visà ekranà<br>
+        /Max[imized] startuoja langà padidintà per visà ekranà<br>
+        /R[estored] startuoja langà normalaus dydþio (pagal nutylëjimà)<br>
+        /SEPARATE startuoja 16-bitø Windows programà tik jai skirtoje         atmintyje<br>
+        /SHARED startuoja 16-bitø Windows programà ne tik jai skirtoje         atmintyje<br>
+        /LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL nurodo         kiek procesoriaus laiko skirti nurodytàjai programai<br>
+        /WAIT paleidþià programà ir laukia kol ji uþbaiks         darbà<br>
+        /W[ait] paleidþià programà ir laukia kol ji uþbaiks         darbà<br>
+        <i>komanda</i> komanda<br>
+        <i>programa</i> failo pavadinimas<br>
+        <i>parametrai </i>komandos arba programos parametrai</dt>    </dl>    <p>
+
+<b>Info: </b>þaliai paþymëti parametrai veikia       tik Windows 2000 ar naujesnëje operacinëje sistemoje.</p>  </dd>  <dt>
+<b>Pavyzdys<br>
+    </b>@echo off<br>
+    start d:\gamez.rulez.htm</dt></dl>

@@ -1,0 +1,38 @@
+WinNT serijos operacinë sistema.<br>
+ Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+Color<i> </i>[<i>tekstospalva</i>[fonospalva]]<br>
+  </dt>  <dd>
+
+Ði nustato konsolës teksto spalvà. Jeigu neparaðytas <i>spalvoskodas</i>,  atstomos pradinës konsolës teksto spalvos:<br>
+Ðtai konsolës spalvø kodai:  <dl>
+  <dl>
+  <dt>
+0 - Juoda<br>
+  1 - Mëlyna<br>
+  2 - Þalia<br>
+  3 - Þydra<br>
+  4 - Raudona<br>
+  5 - Purpurinë<br>
+  6 - Geltona<br>
+  7 - Balta<br>
+  8 - Pilka<br>
+  A - Ðviesiai Mëlyna<br>
+  B - Ðviesiai Þalia<br>
+  C - Ðviesiai Þydra<br>
+  D - Ðviesiai Raudona<br>
+  E - Ðviesiai Purpurinë<br>
+  F - Ryðkiai Balta</dt>  </dl>  </dl>  </dd> </dl> <b>Pavyzdys<br>
+</b>@echo off<br>
+  color<br>
+echo Normali spalva<br>
+  pause &gt; null<br>
+  color 5<br>
+  echo Purpurinë spalva<br>
+  pause &gt; nullcolor F<br>
+  echo Ryðkiai balta spalva<br>
+  pause &gt; null <br>
+  color 

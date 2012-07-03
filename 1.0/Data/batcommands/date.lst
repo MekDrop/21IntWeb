@@ -1,0 +1,10 @@
+ <dl>
+  <dt>
+Data [/T | <i>data</i>]</dt>  <dd>
+
+</dd>  Ði komanda parodo arba pakeièia datà.<br>
+  Jeigu neparaðyti jokie parametrai, parodoma data ir papraðoma ávesti naujà.  Jeigu paraðytas raktas /T data yra tik paradoma, o jei praðyta <i>data</i>,  dabartinë data pakeièiama á nurodytàjà.<br>
+  <b><br>
+  Áspëjimas: </b>Raktas /T veikia tik Windows 2000 ir naujesnëje opracinëje  sistemoje.</dl><b>Pavyzdys<br>
+</b>@echo off<br>
+  date /t 

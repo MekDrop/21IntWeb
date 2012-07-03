@@ -1,0 +1,22 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Subst <i>diskas1</i>: [<i>diskas2</i>:]<i>katalogas</i><br>
+  </dt>  <dd>
+
+ Priskiria disko raidæ nurodytam katalogui.</dd>  <dt>
+<br>
+    Subst </dt>  <dd>
+
+Parodomi visi virtualûs diskai, skurti naudojantis ðia komanda.</dd>  <dt>
+<br>
+    Subst <i>diskas</i>: /D</dt>  <dd>
+
+Iðtrina nurodytàjá diskà </dd></dl><dl>
+  <dt>
+<b>Pavyzdys<br>
+    </b>@echo off<br>
+    subst m: "C:\Documents and Settings\"<br>
+    m:</dt></dl>

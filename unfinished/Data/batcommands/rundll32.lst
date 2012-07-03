@@ -1,0 +1,93 @@
+Windows 95 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+rundll32 user,tilechildwindows</dt>  <dd>
+
+ Sudëlioja visus atidarytus langus greta vienas kito.</dd>  <dt>
+rundll32 user,cascadechildwindows</dt>  <dd>
+
+ Surikiuoja langus vienà ant kito.</dd>  <dt>
+<br>
+  rundll32 user,exitwindows</dt>  <dd>
+
+ Uþbaigia "Windows".</dd>  <dt>
+<br>
+  rundll32 krnl386.exe,exitkernel</dt>  <dd>
+
+ Staigiai, be jokiø klausimø uþbaigia "Windows" (atsargiai,- gali  pradingti neáraðyti duomenys!).</dd>  <dt>
+<br>
+  rundll32 user,wnetconnectdialog</dt>  <dd>
+
+ Startuoja "Map Network Drive" dialogà.</dd>  <dt>
+<br>
+  rundll32 user,wnetdisconnectdialog</dt>  <dd>
+
+ Startuoja "Disconnect Network Drive" dialogà.</dd>  <dt>
+<br>
+  rundll32 user,disableoemlayer</dt>  <dd>
+
+ Iðjungia grafinæ posistemæ ir "pakabina" kompiuterá.</dd>  <dt>
+<br>
+  rundll32 user,repaintscreen</dt>  <dd>
+
+ Ið naujo "perpieðia" sistemos darbastalá (analogiðka &lt;F5&gt;  paspaudimui).</dd>  <dt>
+<br>
+  rundll32 user,setcursorpos</dt>  <dd>
+
+ Pekelia pelës þymeklá á kairájá virðutiná kampà.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 diskcopy,DiskCopyRunDll</font></dt>  <dd>
+
+<font color="#009900"> Startuoja diskeliø kopijavimo programëlæ.</font></dd>  <dt>
+<br>
+  rundll32 shell,shellexecute</dt>  <dd>
+
+ Atidaro "Windows Explorer" langà.</dd>  <dt>
+<br>
+  rundll32 shell32,OpenAs_RunDLL</dt>  <dd>
+
+ Startuoja "Open With" dialogà.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 shell32,SHFormatDrive</font></dt>  <dd>
+
+ Atidaro diskelio formatavimo langà.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 shell32,ShellAboutA</font></dt>  <dd>
+
+ Informacija apie atmintá ir naudojamus resursus.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 shell32,Control_RunDLL</font></dt>  <dd>
+
+ Atidaro "Control Panel".</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 shell32,Control_RunDLL desk.cpl</font></dt>  <dd>
+
+ Atidaro "Display Properties" langà.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 shell32,Control_RunDLL main.cpl</font> @1</dt>  <dd>
+
+ Atidaro "Keyboard Properties" dialogà klaviatûros konfigûravimui  (po @ vietoj 1 paraðius 2, 3 arba 4 startuoja atitinkamai spausdintuvø, ðriftø  ádiegimo arba energijos taupymo dialogus).</dd>  <dt>
+<br>
+  rundll32 sysdm.cpl,InstallDevice_Rundll</dt>  <dd>
+
+ Startuoja "Add New Hardware Wizard" (ðià naujø árenginiø ádiegimui  kartais bûtinà funkcijà "Microsoft" nesàþiningai paslëpë nuo "Windows  98" vartotojø).</dd>  <dt>
+<br>
+  rundll32 msprint2.dll,RUNDLL_PrintTestPage </dt>  <dd>
+
+Leidþia patogiai ir greitai iðbandyti kurá nors ið prijungtø spausdintuvø.</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 keyboard,disable</font></dt>  <dd>
+
+ Iðjungia klaviatûrà (po to reikia perkrauti sistemà).</dd>  <dt>
+<br>
+  <font color="#009900">rundll32 mouse,disable</font></dt>  <dd>
+
+ Iðjungia pelæ (po to reikia perkrauti sistemà).</dd>  <dt>
+<br>
+  <b> Info:</b> þaliai paraðytos komandos veikia ir su operacinëm sistem  veikianèioms su NT 4.x ar naujesniu branduoliu.<br>
+  </dt> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>rundll32 diskcopy,DiskCopyRunDll</dt> </dl>

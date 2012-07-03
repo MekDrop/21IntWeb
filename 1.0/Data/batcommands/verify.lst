@@ -1,0 +1,21 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Verify<br>
+  </dt>  <dd>
+
+ Spausdina, ar yra ájungtas tikrinimas, ar failai yra teisingai kopijuojami.</dd>  <dt>
+<br>
+  Verify On</dt>  <dd>
+
+Ájungia tikrinimà.</dd>  <dt>
+<br>
+  Verify Off</dt>    <dd>
+
+Iðjungia tikrinimà. </dd></dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  verify</dt> </dl>

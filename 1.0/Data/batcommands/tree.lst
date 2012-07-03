@@ -1,0 +1,13 @@
+DOS 5 ir naujesnë<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+Tree [<i>diskas</i>:][<i>katalogas</i>] [/F] [/A]</dt>  <dd>
+
+Parodomas katalogø medis.<br>
+  Jeigu paraðytas raktas /F, rodomi ir failai esantys konkreèiuose kataloguose,  o raktas /A nurodo, kad iðvedimui bûtø naudojami tik standartiniai ASCII simboliai.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>Tree c:\windows</dt> </dl>

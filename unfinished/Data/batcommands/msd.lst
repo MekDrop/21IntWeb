@@ -1,0 +1,31 @@
+Dauguma DOS versijø<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Msd [/I] [/F[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>]     [/P[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>]<br>
+    [/S[<i>diskas</i>:][<i>katalogas</i>][<i>failovardas</i>]] [/B] [/I]</dt>  <dd>
+
+Parodo informacijà apie kompiuterio komponentus.<br>
+  </dd>  Komandos parametrai:   <dl>
+    <dl>
+      <dt>
+/I </dt>      <dd>
+
+nurodo, kad MSD strato metu nebandytø aptikti aparatûrinës         árangos</dd>      <dt>
+/F[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i></dt>      <dd>
+
+ Papraðo ávesti asmeninæ informacijà ir sukûria         raportà ir áraðo á nurodytà failà</dd>      <dt>
+/P[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i></dt>      <dd>
+
+Sukûria pilnà raportà be uþklausimo apie asmeninæ         informacijà ir áraðo á nurodytà failà</dd>      <dt>
+/S[<i>diskas</i>:][<i>katalogas</i>][<i>failovardas</i>]</dt>      <dd>
+
+Sukûria paprastà raportà be uþklausimo apie         asmeninæ informacijà ir áraðo á nurodytà         failà</dd>      <dt>
+/B</dt>      <dd>
+
+MSD veikia juodai baltame reþime</dd>    </dl>  </dl></dl><p>
+
+ <b>Pavyzdys<br>
+  </b><br>
+  MSD </p>

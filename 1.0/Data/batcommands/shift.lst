@@ -1,0 +1,34 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+Shift<br>
+  </dt>  <dd>
+
+ Kiekvienas BAT failas gali turëti savus parametrus (pvz.: mano.bat  ash tu mes), kurie yra iðsaugomi kintamuosiuose %<i>n</i>, kur <i>n</i> yra  parametro numeris. Bet tai nëra visada patogu, pvz. naudoti BAT failuose,  kurie gali turëti <i>x</i> parametrø. Tam naudojama ði komanda. Ji "pastumia"  parametrø reikðmes per vienà pozicijà á kairæ, pvz.:   <dl>
+  <dt>
+ jei buvo ávykdytas tokia komanda:</dt>  <dd>
+
+mano.bat ash tu mes</dd>  <dt>
+tai kintamieji ágavo tokias reikðmes:</dt>  <dd>
+
+%1 ash<br>
+  %2 tu<br>
+  %3 mes</dd>  <dt>
+panaudojus BAT faile komandà Shift kintamøjø reikðmës pasikeitë:</dt>  <dd>
+
+%1 tu<br>
+  %2 ash<br>
+  %3</dd>  </dl>  </dd> </dl> <p>
+
+<b>Áspëjimas:</b> komandos sintaksë skirtingose operacijø sistemø versijose  gali skirtis.<br>
+  </p> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  :pradziaif "%1"=="" goto pabaiga<br>
+  echo %1<br>
+  shift<br>
+  goto pradzia<br>
+  :pabaiga </dt> </dl>

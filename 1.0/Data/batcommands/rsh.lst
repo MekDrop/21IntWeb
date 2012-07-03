@@ -1,0 +1,27 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+RSH <i>serveris</i> [-l <i>vartotojovardas</i>] [-n] <i>komanda</i></dt>  <dd>
+
+ Vykdo komandà, nutolusiame kompiuteryje, jeigu tik veikia RSH servisas.<br>
+    <br>
+    Komandos sintaksë:     <dl>
+      <dt>
+ <i>serveris</i></dt>      <dd>
+
+ nurodo serverá, kuriame reikia vykdyti komandà</dd>      <dt>
+-l <i>vartotojovardas</i></dt>      <dd>
+
+ nurodo vartotojo vardà serveryje</dd>      <dt>
+ -n </dt>      <dd>
+
+gautà informacijà nukreipia á NUL</dd>      <dt>
+ <i>komanda</i></dt>      <dd>
+
+ nurodo, komandà kokia turi bûti ávykdyta<br>
+      </dd>    </dl>  </dd>  <dt>
+ <b>Pavyzdys<br>
+    </b>RSH L418-5 Explorer</dt></dl>

@@ -1,0 +1,30 @@
+Windows 2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+Findstr [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:<i>failas</i>]     [/C:<i>tekstas</i>] [/G:<i>failas</i>] [/D:<i>katalogø sàraðas</i>] [/A:<i>spalvø     atributai</i>] [/OFF[LINE]] <i>tekstas</i> [[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>[     ...]]</dt>  <dd>
+
+Ieðko teksto failuose.<br>
+    <br>
+    Komandos parametrai:     <dl>
+      <dt>
+/B ieðkoma failo(-ø) eilutës pradþioje<br>
+        /E ieðkoma failo(-ø) eilutës pabaigoje<br>
+        /L ieðko tiksliai pagal uþklausà<br>
+        /R ieðko apytiksliai<br>
+        /S ieðko failø kataloge ir visuose jo pakatalogiuose<br>
+        /I nurodo, kad nesvarbu ar tekstas dokumente bus paraðytas maþosiomis         raidëmis ar didþiosiomis<br>
+        /X spausdina eilutes, kurios tiksliai atitinka uþklauso tekstà<br>
+        /V spausdina eilutes, kuriose nerastas uþklausos tekstas<br>
+        /N spausdina eiluèiø numerius<br>
+        /M spausdina tik failo pavadinimà, jeigu faile rastas nurodytas         tekstas<br>
+        /O spausdina þenklø ofsetà<br>
+        /P praleidþia failus su eilutëmis, kuriose yra nespausdintinø         þenklø<br>
+        /OFF[LINE] nepraleidþia failø su OffLine atributu<br>
+        /A:<i>spalvø atributai</i> nurodo spalvos kodà. Daugiau         info apie spalvø kodus komandoje Color<br>
+        /F:<i>failas</i> skaito failø sàraðà ið nurodyto         failo ("/" - þenklas reikðkia, kad naudoti konsolæ)<br>
+        /C:<i>tekstas</i> nurodo pasirinktà tesktà, kaip tikslià         uþklausà<br>
+        /G:<i>failas</i> skaito uþklausos tekstà ið pasirinkto         failo("/" - þenklas reikðkia, kad naudoti konsolæ)<br>
+        /D:<i>katalogø sàraðas</i> nurodo, kokiose kataloguose         ieðkoti<br>
+        [<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i> nurodo failà         ar failus, kuriose ieðkoti pasirinkto teksto.</dt>    </dl>  </dd></dl>

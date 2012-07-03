@@ -1,0 +1,8 @@
+DOS ir naujesnë OS<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Convert <i>diskas </i>/FS:NTFS [/V] [/CvtArea:<i>failovardas</i>]  [/NoSecurity] [/X]</dt>  <dd>
+
+</dd>  Ði komanda konvertuoja FAT sistemos diskà á NTFS sistemos diskà.</dl>

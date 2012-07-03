@@ -1,0 +1,20 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Chkdsk [diskas:][katalogas[failovardas] [/F] [/V]<br>
+  </dt>  <dd>
+
+ Ði komanda patikrinà visà diskà, ar pasirinktà katalogà arbà failà  ir praneða ar rasta klaidø.<br>
+  Jeigu nenaudojami jokie papildomi raktai ir nenurodomi failai ir katalogai,  ði komanda parodo dabartiná diskø statusà.<br>
+  Naudokite raktà /F, kad bûtø surastos klaidos iðtaisytos.<br>
+  Naudokite raktà /V, kad bûtø parodytas visø failø sàraðas diske.<br>
+<br>
+<b>Áspëjimas:</b> kai kuriose operacinëse sistemose gali ðiek tiek skirtis  komandos sintaksë.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  rem suranda ir iðtaiso klaidas rastas diske c:<br>
+  chkdsk c: /F</dt> </dl>

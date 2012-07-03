@@ -1,0 +1,13 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+Net [ Accounts | Computer | Config | Continue | File | Group | Help | HelpMsg     | LocalGroup | Name | Pause | Print | Send | Session | Share | Start | Statistics     | Stop | Time | Use | User | View ]</dt>  <dd>
+
+ Valdo vietiná tinklà (LAN).</dd>  <dt>
+<br>
+    <strong>Pavyzdys</strong> <br>
+    <br>
+    For /L %i In (1,1,1000) Do Net Send * Prane&eth;imas visiems tinklo kompiuteriams.</dt></dl>

@@ -1,0 +1,12 @@
+Dauguma operaciniø sistemø <br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+FDisk [/Status]</dt>  <dd>
+
+Ði komanda skirta darbui su disko dalmenimis. Jeigu yra paraðytas raktas     /Status, yra parodoma tik informacija pie dalmenis. </dd>  <dd>
+
+&nbsp;</dd>  <dt>
+<b>Pavyzdys<br>
+    </b>@FDisk</dt></dl>

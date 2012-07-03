@@ -1,0 +1,32 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Scandisk [<i>diskas</i>: [<i>diskas</i>: ...]| /ALL] [/CHECKONLY | /AUTOFIX     [/NOSAVE] | /CUSTOM] [/SURFACE] [/MONO] [/NOSUMMARY]<br>
+  </dt>  <dd>
+
+Patikrina ar nëra diske klaidø, ir jeigu randa, iðtaiso.<br>
+    <br>
+    Komandos parametrai:     <dl>
+      <dt>
+<i>diskas</i>: diskas, kurá reikia patikrinti<br>
+        /ALL nurodo, kad reikia tiktrinti visus diskus<br>
+        /CHECKONLY nurodo, kad reikia tik patiktrinti diskus, bet nebandyti iðtaisyti         klaidø<br>
+        /AUTOFIX nurodo, kad reikia automatiðkai taisyti klaidas<br>
+        /NOSAVE nurodo, kad reikia iðtrinti visus prarastus klasterius, kuriuos         tik ras ði komanda<br>
+        /CUSTOM nurodo, kad reikia naudotis scandisk.ini konfiguracijos failu         disko tikrinimui<br>
+        /SURFACE tikrina ar diskas nëra sugadintas fiziðkai<br>
+        /MONO veikia monochrominiame reþime<br>
+        /NOSUMMARY baigus darbà nerodo jokios informacijos apie aptiktas         klaidas <br>
+      </dt>    </dl>  </dd>  <dt>
+ Scandisk /FRAGMENT <i>failas</i></dt>  <dd>
+
+Patikrina ar yra defragmentuotas nurodytasis failas arba failai.</dd>  <dt>
+<br>
+    Scandisk /UNDO [<i>diskas:</i>] [/MONO]</dt>  <dd>
+
+Atstato disko informacijà.</dd></dl><p>
+
+<b>Pavyzdys<br>
+  </b>Scandisk /ALL</p>

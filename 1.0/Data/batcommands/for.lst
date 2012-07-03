@@ -1,0 +1,31 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+For <font color="#006600">[/D]</font> %<i>kintamasis </i>In (<i>rinkinys</i>)     Do <i>komanda</i> [<i>komandos-parametrai</i>]</dt>  <dd>
+
+Daro komandà kiekvienam failui ið rinkinio. Jeigu yra paraðytas raktas     /D, veiksmai yra atliekami ir su katalogais.</dd>  <dt>
+&nbsp;</dt>  <dt>
+<font color="#006600">For /R [[<i>diskas</i>:]<i>kelias</i>] %<i>kintamasis</i>     In (<i>rinkinys</i>) Do<i> komanda</i> [<i>komandos parametrai</i>]</font></dt>  <dd>
+
+Daro komandà kiekvienam failui ið rinkinio pasinaudodams katalogø     medþiu. Jeigu nëra nurodytas katalogas, ði komanda atlieka     laiko, kad ðakninis katalogas yra darbinis katalogas.</dd>  <dt>
+<font color="#006600"><br>
+    For /L %<i>kintamasis</i> In (<i>startas</i>,<i>þingsnis</i>,<i>pabaiga</i>)     Do <i>komanda</i> [<i>komandos parametrai</i>]</font></dt>  <dd>
+
+Vykdo komandà tol, kol <i>startas</i> yra ne lygus <i>pabaiga</i>i,     kiekivienà kart atliekant matematiná veiksmà <i>startas</i>+þingsnis     ir jo reikðmæ priskiriant kintamajam.</dd>  <dt>
+<br>
+    <font color="#006600">For /F ["<i>nustatymai</i>"] %<i>kintamasis</i>     IN (<i>rinkinys</i>) DO <i>komanda</i> [<i>komandos parametrai</i>]<br>
+    For /F ["<i>nustatymai</i>"] %<i>kintamasis</i> IN ("<i>tekstas</i>")     DO <i>komanda</i> [<i>komandos parametrai</i>]<br>
+    For /F ["<i>nustatymai</i>"] %<i>kintamasis</i> IN ('<i>komanda</i>')     DO <i>komanda</i> [<i>komandos parametrai</i>]</font></dt>  <dd>
+
+Atidaro kiekvienà ið nurodytø failø ir atlieka     su juo veiksmà. Daugiau apie ðiàs komandà pasiþiûkite     pagalboje, paraðæ komandinëje eilutëje <code>help for</code>.<br>
+    <br>
+    <b>Info: </b>þaliai paþymëtos komandos veikia tik     Windows 2000 arba naujesnëje operacinëje sistemoje, jeigu komandinës     eilutës iðplëtimai yra ájungti.<br>
+  </dd>  <dd>
+
+&nbsp;</dd>  <dt>
+<b>Pavyzdys<br>
+    </b>@Echo Off<br>
+    Rem Iðveda failø pavadinimus esanèius darbiniame kataloge:<br>
+    For %i In (*.*) Do Echo %i</dt></dl>

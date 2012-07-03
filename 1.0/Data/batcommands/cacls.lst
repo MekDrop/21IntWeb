@@ -1,0 +1,12 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+<b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>CACLS <i>failovardas</i> [/T] [/E] [/C] [/G <i>vartotojas</i>:<i>leidimai</i>]  [/R <i>vartotojas </i>[...]] [/P <i>vartotojas</i>:<i>leidimai</i> [...]]  [/D <i>vartotojas </i>[...]]<br>
+  </dt>  <dd>
+ Ði komanda parodo leidimø sàraðà (ACLs) kitiems kompiuterio vartotojams  arba modifikuoja leidimø sàraðà.<br>
+<br>
+<b>Áspëjimas:</b> Kad ði su ðia komanda bûtø galima modifikuoti leidimø sàraðà,  reikia turëti administratoriaus teises. Beto, komanda veikia tik tuose diskuose,  kurie naudoja NTFS failø sistemà.</dd> </dl> <dl>
+  <dt>
+&nbsp;</dt> </dl>

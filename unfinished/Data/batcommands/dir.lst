@@ -1,0 +1,48 @@
+ <dl>
+  <dt>
+DIR [<i>diskas</i>:][<i>katalogas</i>][<i>failovardas</i>] [/A[[:]<i>atributai</i>]] [/B] <font color="#006600">[/C|-/C]</font> <font color="#006600">[/D]</font>  [/L] <font color="#006600">[/N]</font> [/O[[:]<i>rikiavimotvarka</i>]] [/P]  <font color="#006600">[/Q]</font> [/S] <font color="#006600"> [/T[[:]<i>laikolaukas</i>]]</font>  [/W] <font color="#006600">[/X] [/4]</font></dt>  <dd>
+
+Parodo katalogo turiná.<br>
+  Jos sintaksës apaðymas:  <dl>
+ <dt>
+ [<i>diskas</i>:][<i>katalogas</i>][<i>failovardas</i>] nurodo diskà, katalogà, ir/arba failus, kuriuos norite pamatyti<br>
+ /A[[:]<i>atributai</i>] rodo failus su nurodytais atributais:</dt> <dd>
+
+ D katalogai<br>
+ R tik skaitymui skirti failai<br>
+ H nematomi failai<br>
+ A archyvai<br>
+ S sistemos failai<br>
+ - ðis prieðdëlis prieð pasirinktà atributà reiðkia, kad nebûtø rodomi  failai su tuo atributu, prieð kurá yra ðis prieðdëlis</dd> <dt>
+/B naudoja nepadailintà formatà (jokios papildomos informacijos  apie failus)<br>
+  /C rodo tûkstanèio skirtukus failø dydþio laukeliuose.  Ði savybë yra pagal  nutylëjimà ájingta, jeigu norite jà iðjungti naudokite /-C<br>
+ /D tas pats kas ir platus formatas, tik failai yra surikiuoti á stulpelius<br>
+ /L naudoja maþasias raides<br>
+ /N naujasis iðplëstinis sàraðo formatas, kur failai ir katalogai rodomi  deðinëje<br>
+/O[[:]<i>rikiavimotvarka</i>] rodyti failus nustatyta tvarka:</dt>  <dd>
+
+N pagal vardà (alfabetiðkai)<br>
+  S pagal dydá (maþesni pirmiau)<br>
+  E pagal galûnes (alfabetiðkai)<br>
+  D pagal datà ir laikà (senesni pirmiau)<br>
+  G grupës katalogø pirmiau<br>
+  - prieðdëlis reiðkia ne</dd>  <dt>
+/P daro pauzæ po kiekvieno ekrano lapo informacijos<br>
+  /Q rodo failo savininkà<br>
+  /S rodo failus ið pasirinkto katalogo ir visø vidiniø katalogø<br>
+  /T[[:]<i>laikolaukas</i>]kontroliuja laiko laukelá, kuris naudojamas failø  rikiavimui:<br>
+  </dt>  <dd>
+
+C sukûrimo laikas<br>
+  A paskutinis failo naudojimo laikas<br>
+  W paskutinio karto failo raðymo laikas</dd>  <dt>
+/W naudoja iðplëstiná sàraðo formatà<br>
+  /4 rodo metus keturiais skaièiais</dt>  </dl>  </dd>  <dd>
+
+Þaliai paþymëti raktai veikia tik Windows 2000 ir naujesnëje opracinëje  sistemoje.</dd>  <dt>
+<b><br>
+  Áspëjimas: </b>Komandø sintaksë gali skirtis skirtingose opracinëse sistemose.<br>
+<br>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  dir *.txt /s /b</dt> </dl>

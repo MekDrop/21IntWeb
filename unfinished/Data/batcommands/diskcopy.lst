@@ -1,0 +1,14 @@
+DOS 5 ir naujesnë<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+DiskCopy [[<i>diskas1</i>:] [<i>diskas2</i>:]] [/V]</dt>  <dd>
+
+Kopijuoja vieno disko failus á kità diskà.<br>
+  </dd>  <dt>
+ <br>
+  <br>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  diskcopy a: b:</dt> </dl>

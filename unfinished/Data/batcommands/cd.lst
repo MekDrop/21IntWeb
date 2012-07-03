@@ -1,0 +1,32 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Cd [katalogas]<br>
+  Chdir [katalogas]</dt>  <dd>
+
+ Jeigu yra paraðytas katalogas, ði komanda pakeièia darbiná katalogà  á paraðytàjá, kitu atveju parodomas darbinis katalogas.<br>
+Norint sugráðti á aukðtesná katalogà raðykite</dd>  <dt>
+Cd ..</dt>  <dd>
+
+arba</dd>  <dt>
+Chdir ..</dt> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  rem aktyvuojamas diskas c:<br>
+  c:<br>
+rem parodomas darbinis katalogas:<br>
+  cd<br>
+  rem darbinis katalogas pakeièiamas á c:\windows<br>
+  chdir c:\windows<br>
+  rem parodomas darbinis katalogas:<br>
+  cdrem katalogas pakeièiamas á c:\windows\system<br>
+  cd system<br>
+  rem parodomas darbinis katalogas:<br>
+  cdrem katalogas pakeièiamas vël á c:\windows<br>
+  cd ..<br>
+  rem parodomas darbinis katalogas:<br>
+  chdir<br>
+  </dt> </dl>

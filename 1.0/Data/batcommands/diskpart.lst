@@ -1,0 +1,9 @@
+Windows 2000 is naujesnë OS<br>
+ Iðorinë komanda.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ DiskPart [/s <i>skriptas</i>]</dt>  <dd>
+
+Paleidþia programà diskøpartiticijoms keisti. Jeigu     paraðytas raktas /s vykdo DiskPart skriptà.</dd></dl>

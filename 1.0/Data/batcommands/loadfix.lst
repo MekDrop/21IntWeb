@@ -1,0 +1,12 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+LoadFix <i>programa</i></dt>  <dd>
+
+Ákrauna programà á pirmuosius 64k atminties segmentus.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>LoadFix Mario.exe</dt> </dl>

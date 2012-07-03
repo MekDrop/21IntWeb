@@ -1,0 +1,14 @@
+DOS ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Vol [<i>diskas</i>:]<br>
+  </dt>  <dd>
+
+ Spausdina disko pavadinimà ir serijiná numerá, jeigu tik tokius turi.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  vol c:</dt> </dl>

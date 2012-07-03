@@ -1,0 +1,19 @@
+Windows NT 4 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+FType [<i>tipas</i>[=[<i>komanda</i>]]]<br>
+  </dt>  <dd>
+
+ Priskiria nurodytam failø tipui komandà.<br>
+  Be parametrø ði komanda parodo susietø failø sàraðà, o nurodþius tik <i>tipà</i>,  parodoma, kokia komanda yra vykdoma koekreèiam failø tipui.<br>
+<i>Komanda - </i>tai bet kokia komanda arba programos pavadinimas su parametrais.<br>
+    Naudokite <i>komandà</i> su ðiais parametrais - %<i>n</i> (kur n - parametro     numeris, paimtas ið paleidimo eilutës), %* (visi parametrai) - kad visada     bûtø atliekamas veiksmas su nurodytu failu.</dd></dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  rem ðis pavyzdys parodo, kaip padaryti, kad paleidus kazkos.pl bûtø automatiðkai  jis atidaromas<br>
+rem su programa perl.exe:<br>
+  assoc .pl=PerlScript<br>
+  ftype PerlScript=perl.exe %1 %*</dt> </dl>

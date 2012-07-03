@@ -1,0 +1,30 @@
+Visos OS<br>
+<b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Echo.</dt>  <dd>
+
+Spausdina tuðèià eilutæ.</dd> </dl> <dl>
+<dt>
+ Echo <i>tekstas</i></dt>  <dd>
+
+Spausdina tekstà.</dd> </dl> <dl>
+  <dt>
+Echo On</dt>  <dd>
+
+Nustato, kad bûtø kartojamos komandos.</dd> </dl> <dl>
+  <dt>
+Echo Off</dt>  <dd>
+
+Nustato, kad bûtø iðjungtas komandø kartojimas.</dd> </dl> <dl>
+  <dt>
+Echo</dt>  <dd>
+
+Spausdina dabartinæ komandø kartojimo bûsenà: Jeigu tekstas yra 'Echo  is Off', tada komandø kartojimas yra iðjungtas, prieðingu atveju - ájungtas.</dd> </dl> Jeigu prieð echo paraðomas þenklas '@', eilutë nekartojama net jeigu ir yra ájungtas komandø kartojimas.<br>
+<br>
+<b> Pavyzdys<br>
+<br>
+</b>@Echo Off<br>
+Echo Labas!<br>
+Echo Ate...

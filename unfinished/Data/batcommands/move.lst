@@ -1,0 +1,19 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Move <i>failas1 failas2</i></dt>  <dd>
+
+Pervadina pirmajá failà antrojo vardu.</dd>  <dd>
+
+&nbsp;</dd>  <dt>
+Move <i>katalogas1 katalogas2</i></dt>  <dd>
+
+Perkelia pirmojo katalogo duomenis á antrajá.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b><br>
+@Echo Off<br>
+  Move c:\*.bak c:\*.temp</dt> </dl>

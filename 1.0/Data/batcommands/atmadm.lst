@@ -1,0 +1,25 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+AtmAdm [-c] [-a] [-s]</dt>  <dd>
+
+ Rodo statistikà, apie Windows ATM uþklausøtvarkytuvà     (Windows ATM Call Manager)<br>
+    <br>
+    Komandos sintaksë:     <dl>
+      <dt>
+ <i>-</i>c</dt>      <dd>
+
+ parodo visus prisijungimus</dd>      <dt>
+-a<i></i></dt>      <dd>
+
+ parodo visus registruotus adresus</dd>      <dt>
+ -s</dt>      <dd>
+
+rodo statistikà<br>
+      </dd>      <dt>
+&nbsp; </dt>    </dl>  </dd>  <dt>
+ <b>Pavyzdys<br>
+    </b>AtmAdm -s</dt></dl>

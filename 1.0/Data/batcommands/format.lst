@@ -1,0 +1,81 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Format <i>diskas</i>: [/V[:<i>pavadinimas</i>]] [/Q] [/U] [/F:<i>dydis</i>]     [/B|/S] [/C]<br>
+    Format <i>diskas</i>: [/V[:<i>pavadinimas</i>]] [/Q] [/U] [/T:<i>takeliai</i>     /N:<i>sektoriai</i>] [/B|/S] [/C]<br>
+    Format <i>diskas</i>: [/V[:<i>pavadinimas</i>]] [/Q] [/U] [/1] [/4] [/B|/S]     [/C]<br>
+    Format <i>diskas</i>: [/Q] [/U] [/1] [/4] [/8] [/B|/S] [/C]</dt>  <dt>
+<font color="#009900"> Format <i>diskas </i> [/FS:<i>failø-sistema</i>]     [/V:<i>pavadinimas</i>] [/Q] [/A:<i>dydis</i>] [/C] [/X]<br>
+    Format <i>diskas</i> [/V:<i>pavadinimas</i>] [/Q] [/F:<i>dydis</i>]<br>
+    Format <i>diskas</i> [/V:<i>pavadinimas</i>] [/Q] [/T:<i>takeliai</i>     /N:<i>sektoriai</i>]<br>
+    Format <i>diskas</i> [/V:<i>pavadinimas</i>] [/Q]<br>
+    Format <i>diskas</i> [/Q]<br>
+    </font></dt>  <dd>
+
+<font color="#009900"></font></dd>  <dd>
+
+Ði komanda formatuoja nurodytà diskà.<br>
+    <br>
+    Komandos paramentrai: <br>
+    <dl>
+      <dt>
+<i>diskas</i>:</dt>      <dd>
+
+<i></i>Diskas, skirtas formatuoti</dd>      <dt>
+/V[:<i>pavadinimas</i>]</dt>      <dd>
+
+Suteikia diskui nurodytàjá pavadinimà. Pavadinimas         turi bûti sudarytas ne daugiau kaip ið 11 þenklø.         Jeigu nenurodomas disko pavadinimas arba /V parametras paraðomas be         <i>pavadinimo</i>, yra paklausiama, koks bus disko pavadinimas</dd>      <dt>
+/Q</dt>      <dd>
+
+Greitas formatavimas. Tik iðtrinama failø lentelë</dd>      <dt>
+/U</dt>      <dd>
+
+Suformatuoja diskà, taip kad paskui negalima atstatyti buvusios         informacijso su UnFormat komanda</dd>      <dt>
+/F:<i>dydis</i></dt>      <dd>
+
+<i></i>Nurodo formatuojamo disko dydá</dd>      <dt>
+/B</dt>      <dd>
+
+Rezervuoja vietà sisteminiams failams</dd>      <dt>
+/S</dt>      <dd>
+
+Sukûria sisteminá diskà</dd>      <dt>
+/T:<i>takeliai</i></dt>      <dd>
+
+Nurodo takeliø skaièiø diske</dd>      <dt>
+/N:<i>sektoriai</i></dt>      <dd>
+
+Nurodo sektoriø skaièiø diske</dd>      <dt>
+/1</dt>      <dd>
+
+Formatuoja tik vienà pusæ FD</dd>      <dt>
+/4</dt>      <dd>
+
+Formatuoja 5,25 coliø, 360Kb, dvipusá lankstøjá         diskelá ant 1.2-MB diskasûkio.<br>
+        Kai naudojama su /1 raktu yra formatuojmas 5,25 coliø, 180Kb lankstusis         diskelis</dd>      <dt>
+/8</dt>      <dd>
+
+<i></i>Formatuoja 5,25 coliø diskelá su 8 sektoriais         per takelá. &ETH;is raktas formatuoja diskus, suderinamus su MS-DOS         2.0 arba senesnëmis versijomis</dd>      <dt>
+/C</dt>      <dd>
+
+Pratestuoja blogus klasterius (DOS OS), arba nurodo, kad failai, kurie         bus sukurti ðiame diske, bus suspausti pagal nutylëjimà         (Windows NT pagrindu veikianti OS)</dd>      <dt>
+/FS:<i>failø-sistema</i></dt>      <dd>
+
+Nurodo disko failø sistemà (NTFS, FAT32 arba FAT)</dd>      <dt>
+/X</dt>      <dd>
+
+Nurodo, kad pirmiausia (jeigu tik ámanoma) reikia atjungti diskà</dd>      <dt>
+/A:<i>dydis</i></dt>      <dd>
+
+Nurodo diskelio vienetø dydá</dd>      <dt>
+<i></i></dt>    </dl>  </dd>  <dt>
+&nbsp;</dt>  <dd>
+
+<b>Info: </b>þaliai paþymëtos komandos veikia     tik Windows NT pagrindu veikianèioje operacinëje sistemoje.</dd>  <dt>
+<br>
+  </dt>  <dt>
+<b>Pavyzdys<br>
+    </b>@Echo Off<br>
+    Format a: </dt></dl>

@@ -1,0 +1,13 @@
+Visos OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+RmDir <i>katalogas</i><br>
+  Rd <i>katalogas</i></dt>  <dd>
+
+Iðtrina tuðèià katalogà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>Rmdir c:\tuscias</dt> </dl>

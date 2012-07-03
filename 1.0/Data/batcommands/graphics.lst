@@ -1,0 +1,12 @@
+Kai kurios DOS versijos<br>
+<b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Graphics [<i>tipas</i>] [[<i>diskas</i>:][<i>katalogas</i>]<i>failovardas</i>]  [/R] [/B] [/LCD] [/PRINTBOX:STD|/PRINTBOX:LCD]</dt>  <dd>
+
+Ákrauna programà á atmintá, kuri leidþia spausdinti informacijà, rodomà  ekrane. Komandà naudokite tik tada, kai naudojate spalvotà arba/ir grafiná  monitoriø.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+</b>Graphics</dt> </dl>

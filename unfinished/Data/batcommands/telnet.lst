@@ -1,0 +1,13 @@
+Windows 95 ir naujesnë OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Telnet <i>telnetserveris</i></dt>  <dd>
+
+Prisijungia prie nurodyto Telnet serverio ir perjungia konsolës darbà     á Telnet'o komandø vykdymà.</dd>  <dt>
+<br>
+  </dt>  <dt>
+<b>Pavyzdys<br>
+    </b><br>
+    telnet gate.polarhome.com</dt></dl>

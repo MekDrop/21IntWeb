@@ -1,0 +1,22 @@
+WinNT serijos operacinë sistema.<br>
+ Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+Chkntfs <i>tomas</i> [...]<br>
+  Chkntfs /D<br>
+  Chkntfs /T[:<i>laikas</i>]<br>
+  Chkntfs /X <i>tomas</i> [...]<br>
+  Chkntfs /C <i>tomas</i> [...]  <dl>
+  <dd>
+
+Ði komanda parodo arba modifikuoja disko tikrinimà ákrovos metu.<br>
+Ðtai komandos parametrø apraðymai:  <dl>
+  <dt>
+<i>tomas </i> - tai disko vardas (pvz.: <i>c:</i>),  prijungimo vieta arba disko vardas<br>
+  /D - atstato pirminius nustatymus<br>
+  /T:<i>laikas</i> - pakeièia AUTOCHK pradëjimo laikà; jeigu laikas  nëra nurodytas, parodomas dabartinis nustatymas<br>
+  /X - paðalina diskà ið trikrinamø diskø sàraðo<br>
+  /C - parodo, kad bûtø paleistas AUTOCHK kiekvienà kartà kraunant kompiuterá.  Jeigu diskas yra sugadintas, arba jame yra klaidø CHKDSK bus vykdoma  automatiðkai.</dt>  </dl>  </dd>  </dl>  </dt>  <dt>
+<b></b></dt> </dl>

@@ -1,0 +1,12 @@
+DOS 5 ir naujesnë (kai kurios os tokios neturi)<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Deltree [<i>katalogas</i>]</dt>  <dd>
+
+Iðtrina nurodytà katalogà su visais jame esanèiais failais.</dd>  <dt>
+<br>
+    <b>Pavyzdys<br>
+    </b>@echo off<br>
+    deltree c:\temp\~59ab</dt></dl>

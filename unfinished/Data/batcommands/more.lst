@@ -1,0 +1,16 @@
+Dauguma OS<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+More <i>failas</i></dt>  <dd>
+
+Jeigu norite perþiûrëti failà ir jis netelpa á ekranà naudokite ðià  komandà.</dd>  <dt>
+<i>komanda </i>| More</dt>  <dd>
+
+Jeigu komandos rezultatai netelpa á ekranà, naudokite ðià komandà.<br>
+  </dd>  <dt>
+<br>
+  <b>Pavyzdys<br>
+<br>
+</b>Dir c:\ /s /b | More</dt> </dl>

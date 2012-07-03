@@ -1,0 +1,35 @@
+DOS 5 ir naujesnë<br>
+ <b><br>
+Sintaksë</b><br>
+ <dl>
+  <dt>
+Find [/V] [/C] [/N] [/I] <font color="#006600">[/OFF[LINE]]</font> <i>failas     "<i>tekstas</i>"</i></dt>  <dd>
+
+Ieðko pasirinkto teksto faile ir parodo eilutes, kuriose yra rastas tekstas.     <br>
+    <br>
+    Komandos parametrai:     <dl>
+      <dt>
+/V</dt>      <dd>
+
+Rodo eilutes, kuriose nëra ieðkomo teksto</dd>      <dt>
+/C</dt>      <dd>
+
+Rodo tik surastø eiluèiø skaièiø</dd>      <dt>
+/N</dt>      <dd>
+
+Rodo eiluèiø numerius su eiluèiø tekstais</dd>      <dt>
+/I</dt>      <dd>
+
+Ignorojuoja raidþiø dydá, kai ieðko teksto</dd>      <dt>
+/OFF[LINE]</dt>      <dd>
+
+Nepraleidþia failø su OFF LINE atributu</dd>      <dt>
+<i>"<i>tekstas</i>"</i></dt>      <dd>
+
+Tekstas, kurio ieðkoti pasirinktame faile</dd>      <dt>
+<i>failas</i></dt>      <dd>
+
+Vieta, kur ieðkoti nurodyto teksto</dd>    </dl>  </dd></dl><p>
+
+<b>Pavyzdys</b><br>
+  find c:\readme.txt license /I </p>

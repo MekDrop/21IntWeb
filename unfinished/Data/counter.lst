@@ -1,0 +1,25 @@
+<br>
+<div align="center">
+<!-- TOP100 : Start  counter code -->
+<script language="javascript">
+<!--
+var srb="na", srw="na", srh="na";
+//-->
+</script>
+<script language="javascript1.2">
+<!--
+var srw=screen.width, srh=screen.height, srb=(navigator.appName!="Netscape")?screen.colorDepth:screen.pixelDepth;
+//-->
+</script>
+<script language="javascript">
+<!--
+document.write("<a href='http://www.top100.lt/stat.php?lnk=24306' target='_top'>");
+document.write("<img src='http://www.top100.lt/cgi-bin/count?id=24306&ctype=full&ccolor=<?=$MeniuUzvestaSpalva?>&resolution="+srw+"x"+srh+"&color="+srb+"&referer="+escape(document.referrer)+"' height='31' border='0' width='88' alt='TOP 100'></a>");
+//--> 
+</script>
+<noscript>
+<a href='http://www.top100.lt/stat.php?lnk=24306' target='_top'>
+<img src='http://www.top100.lt/cgi-bin/count?id=24306&ctype=full&ccolor=0C5EF6&resolution=naxna&color=na&referer=' border='0' alt='TOP 100'></a>
+</noscript>               
+<!-- TOP100 : End counter code -->
+</div>

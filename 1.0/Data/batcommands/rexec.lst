@@ -1,0 +1,27 @@
+WinNT serijos operacinë sistema.<br>
+Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+RExec <em>serveris</em> [-l <em>vartotojovardas</em>] [-n] <em>komanda</em></dt>  <dd>
+
+ Vykdo komandà, nutolusiame kompiuteryje, jeigu tik veikia REXEC     servisas.<br>
+    <br>
+    Komandos sintaksë:     <dl>
+      <dt>
+ <em>serveris</em></dt>      <dd>
+
+ nurodo serverá, kuriame reikia vykdyti komandà</dd>      <dt>
+-l <em>vartotojovardas</em></dt>      <dd>
+
+ nurodo vartotojo vardà serveryje</dd>      <dt>
+ -n </dt>      <dd>
+
+gautà informacijà nukreipia á NUL</dd>      <dt>
+ <em>komanda</em></dt>      <dd>
+
+ nurodo, komandà kokia turi bûti ávykdyta<br>
+      </dd>    </dl>  </dd>  <dt>
+ <b>Pavyzdys<br>
+    </b>RExec L418-5 Explorer</dt></dl>

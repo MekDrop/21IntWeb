@@ -1,0 +1,9 @@
+Windows 2000 is naujesnë OS<br>
+ Iðorinë komanda.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ EventCreate [/S <i>sistema</i>[/U <i>vartotojovardas </i>[/P [<i>slaptaþodis</i>]]]]     /ID <i>ávykioID</i> [/L <i>áraðovardas</i>] [/SO <i>iðtakøvardas</i>]     /T <i>tipas</i> /D <i>apibûdinimas</i></dt>  <dd>
+
+Ðis árankis leidþia administratoriui sukurti savus ávykiø    apraðymus. </dd></dl>

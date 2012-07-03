@@ -1,0 +1,17 @@
+Windows 2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+PushD <i>katalogas</i><br>
+  </dt>  <dd>
+
+ Ásimena pakeièia á nurodytàjá katalogà, tolesniam naudojimui su komanda  PopD.</dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b><br>
+@echo off<br>
+  cd c:\windows<br>
+  pushd c:\<br>
+  cd "c:\program files"<br>
+  popd </dt> </dl>

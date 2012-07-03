@@ -1,0 +1,42 @@
+DOS 5 ir naujesnë OS(jeigu ði komanda yra ádiegta)<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Choice [/C[:]<i>klaviðai</i>] [/N] [/S] [/T[:]<i>c</i>,<i>nn</i>]  [<i>tekstas</i>]<br>
+  </dt>  <dd>
+
+ Leidþia pasirinkti variantus, paspaudus nurodytà klaviðà.<br>
+  Komandos parametrai:  <dl>
+  <dt>
+<i>tekstas</i> nurodo tekstà, kuris bus rodomas prieð uþklausà<br>
+  /C[:]<i>klaviðai</i> nurodo galimus atsakymo klaviðus<br>
+  /N nerodo uþklausos teksto<br>
+  /S yra svarbu, ar paspausta maþoji ar didþioji raidë<br>
+  /T[:]<i>c</i>,<i>nn</i> nurodo koks klaviðas <i>c</i> bus  paspaustas po <i>nn </i>sekundþiø.</dt>  <dd>
+
+<br>
+  </dd>  </dl>  </dd>  <dt>
+<b>Pavyzdys<br>
+<br>
+</b> cls<br>
+  echo.<br>
+  echo A MS-DOS Redaktoriusecho B QBasic'as<br>
+  echo C Iseiti<br>
+  echo.<br>
+  choice /c:abc Pasirinkite, kà daryti<br>
+  if errorlevel 3 goto MSEdit<br>
+  if errorlevel 2 goto Qb<br>
+  if errorlevel 1 goto End</dt>  <p>
+
+ :MSEdit<br>
+  edit<br>
+  goto End</p>  <p>
+
+ :Qb<br>
+  Qbasic<br>
+  goto End<br>
+  </p>  <dt>
+:End</dt>  <p>
+
+&nbsp; </p> </dl>

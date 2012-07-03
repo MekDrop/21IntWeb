@@ -1,0 +1,12 @@
+Visos OS<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+Command [<i>komanda</i>] [[<i>diskas</i>:]<i>katalogas</i>] [<i>árengnys</i>]     [/E:<i>nnnnn</i>] [/Y [/C <i>komanda</i>| /K {<i>komanda</i> | <i>programa</i>}]]<br>
+  </dt>  <dd>
+
+arba</dd>  <dt>
+CMD [/A | /U] [/Q] [/D] [/E:On | /E:Off] [/F:On | /F:Off] [/V:On | /V:Off]     [[/S] [/C | /K] {<i>komanda</i> | <i>programa</i>}]</dt>  <dd>
+
+Ákrauna á atmintá naujà komandinæs eilutæs     interpretatoriø.</dd></dl>

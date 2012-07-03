@@ -1,0 +1,10 @@
+WinNT serijos operacinë sistema.<br>
+ Versija 4 ir naujesnë.<br>
+ <b><br>
+ Sintaksë</b><br>
+  <dl>
+  <dt>
+AT [<i>\kompiuteriovardas</i>] [ [id] [/DELETE] | /DELETE [/YES]]<br>
+  AT [<i>\kompiuteriovardas</i>] <i>laikas</i> [/INTERACTIVE][ /EVERY:<i>data</i>[,...]  | /NEXT:<i>data</i>[,...]] "<i>komanda</i>"</dt>  <dd>
+
+ Ði komanda vykdo nustatytà komandà ar BAT failà nustatytame kompiuteryje.  Veikia tik tada kai yra paleistas Tvarkaraðèio servisas (Schedule service).</dd> </dl>

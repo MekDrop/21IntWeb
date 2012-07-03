@@ -1,0 +1,9 @@
+Dauguma DOS versijø<br>
+ <b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+Mscdex /D:<i>tvarkyklë</i> [/D:<i>tvarkyklë</i>... ] [/E]     [/K] [/S] [/V] [/L:<i>raidë</i>] [/M:numeris]</dt>  <dd>
+
+Ákrauna CD-ROM árenginio tvarkykles.<br>
+    Norint ðia komanda naudotis, reikia paèiam suþinoti kokiø reikia tvarkykliø     konkreèiam CD-ROM'ui, koks jo modelis.</dd></dl>

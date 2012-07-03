@@ -1,0 +1,39 @@
+Windows 95 ir naujesnë OS.<br>
+ Iðorinë komanda.<br>
+ <b><br>
+ Sintaksë</b><br>
+<dl>
+  <dt>
+ CmStp [/ni] [/ns] [/nf] [/s] [/su] [/sd] <i>pilnaskeliasikiprofilioINFfailo<br>
+    </i>CmStp /u [/s] <i>pilnaskeliasikiprofilioINFfailo</i><br>
+    CmStp /x [/s] <i>pilnaskeliasikiCMINFfailo</i></dt>  <dd>
+
+ Ði komanda redaguoja BOOT.INI failà arba parodo informacijà     apie ákrovà.<br>
+    <br>
+    Komandos sintaksë:    <dl>
+      <dt>
+/ni</dt>      <dd>
+
+nurodo, kad nereikia sukurti piktogramos ant darbastalio (raktas veikia         tik su Windows 95, Windows 98, Windows Me ir Windows NT 4.0 operacinëse         sistemose)</dd>      <dt>
+/ns</dt>      <dd>
+
+nurodo, kad nereikia kurti darbastalio piktogramos Windows 2000 operacinëje         sistemoje</dd>      <dt>
+/nf</dt>      <dd>
+
+praleidþia, pagalbiniøfailøpatikrinimà</dd>      <dt>
+/s</dt>      <dd>
+
+tylus ádiegimas (nerodomi jokie dialogai)</dd>      <dt>
+/su</dt>      <dd>
+
+ádiegti tik vienam vartotojui (tik Windows 2000)</dd>      <dt>
+/sd</dt>      <dd>
+
+nurodo, kad ðis prisijungimas yra pagrindinis IE prisijungimas</dd>      <dt>
+/u </dt>      <dd>
+
+iðdiegia</dd>      <dt>
+/x</dt>      <dd>
+
+paðalina ðià komandà</dd>      <dt>
+&nbsp;</dt>    </dl>  </dd></dl>

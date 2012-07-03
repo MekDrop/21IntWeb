@@ -1,0 +1,87 @@
+Dauguma OS<br>
+<b><br>
+ Sintaksë</b><br>
+ <dl>
+  <dt>
+IF [NOT] ERRORLEVEL <i>numeris</i> <i>komanda</i><br>
+    IF [NOT] <i>tekstas</i>1==<i>tekstas</i>2 <i>komanda<br>
+    </i> <font color="#009900">IF [/I] <i>tekstas</i>1 <i>palyginimo-operatorius     tekstas</i>2 <i>komanda</i></font><br>
+    <font color="#009900">IF CMDEXTVERSION <i>numeris</i> <i>komanda</i></font><br>
+    <font color="#009900">IF DEFINED <i>kintamasis</i> <i>komanda</i></font><br>
+    IF [NOT] EXIST <i>failas</i> <i>komanda</i></dt>  <dd>
+
+Daro pasirinktà komandà tik tada, jeigu yra patenkinta sàlyga.<br>
+    Ðtai komandø sintaksës apraðymai:     <dl>
+      <dt>
+NOT</dt>      <dd>
+
+ Neiginys, nurodo, kad komanda bus vykdoma jeigu sàlyga bus nepatenkinta</dd>      <dt>
+ERRORLEVEL <i>numeris</i></dt>      <dd>
+
+Kai kurios komandos baigdamos darbà praneða kaip gerai já atliko. Tà         informacijà galima pasiimti naudojant ðià sàlygà. <i>Numeris</i> èia reikðia         sàlygos rezultatà</dd>      <dt>
+<i>tekstas</i>1==<i>tekstas</i>2</dt>      <dd>
+
+Jeigu <i>tekstas1</i> yra tapatus <i>tekstui2</i>, tai sàlyga yra patenkita</dd>      <dt>
+EXIST <i>failas</i></dt>      <dd>
+
+Jeigu jau egzistuoja toks <i>failas</i>, tai sàlyga yra patenkinta</dd>      <dt>
+/I</dt>      <dd>
+
+Nurodo, kad yra svarbu ar tekstas paraðytas maþosiomis raidëmis         ar didþiosiomis</dd>      <dt>
+<i>palyginimo-operatorius</i></dt>      <dd>
+
+Nurodo, kaip lyginti <i>tekstas1 </i>ir <i>tekstas2</i> reikðmes.         Galimos ðios reikðmës:         <dl>
+          <dt>
+EQU</dt>          <dd>
+
+lygu, tas pats</dd>          <dt>
+NEQ </dt>          <dd>
+
+nelygu, tekstai nëra tokie patys</dd>          <dt>
+ LSS </dt>          <dd>
+
+maþiau uþ</dd>          <dt>
+ LEQ </dt>          <dd>
+
+maþiau arba lygu</dd>          <dt>
+ GTR </dt>          <dd>
+
+daugaiu uþ</dd>          <dt>
+ GEQ </dt>          <dd>
+
+daugiau arba lygu uþ</dd>        </dl>      </dd>    </dl>  </dd>  <dl>
+    <dt>
+CMDEXTVERSION <i>numeris</i></dt>    <dd>
+
+Jeigu naudojami komandinës eilutës plëtiniai, su ðiuo       galima nukreipti BAT failo darbà priklausomai nuo komandinës       eilutës plëtiniø versijos</dd>    <dt>
+DEFINED <i>kintamasis</i></dt>    <dd>
+
+Jeigu yra <i>kintamasis </i>turi reikðmæ, yra vykdoma nurodyta       komanda</dd>    <dt>
+<br>
+      <b>Info:</b> þaliai paþymëtos komandos veikia       tik Windows 2000 ar naujesnëje OS, jeigu komandinës eilutës       pletiniai yra ájungti.</dt>  </dl>  <dt>
+<br>
+    <b>Pavyzdys<br>
+    </b>@Echo Off<br>
+    Rem Ði programëlë sukuria failà, jeigu prieð tai toks dar nebuvo sukurtas<br>
+    If "%1"=="" Goto BlogaSintakse<br>
+    If "%1"=="/?" Goto Pagalba<br>
+    If Not Exist "%1" Goto Sukurti<br>
+    If Exist "%1" Goto BuvoSukurtas<br>
+    Goto Pabaiga:Sukurti<br>
+    Echo. &gt; %1<br>
+    Echo Failas "%1" buvo sukurtas.<br>
+    Goto Pabaiga<br>
+    :BlogaSintakse<br>
+    Echo Klaida: Bloga Sintaksë<br>
+    Echo Jeigu norite suþinoti programos sintaksæ, ávykdykite programà su raktu     /?<br>
+    Goto Pabaiga<br>
+    :Pagalba<br>
+    Echo Ði programëlë sukuria failà, jeigu prieð tai toks dar nebuvo sukurtas.<br>
+    Echo.<br>
+    Echo Programa [[[diskas:]katalogas]failovardas]<br>
+    Echo.<br>
+    Goto Pabaiga<br>
+    :BuvoSukurtas<br>
+    Echo Failas "%1" nebuvo sukurtas, nes toks jau egzistuoja.<br>
+    Goto Pabaiga<br>
+    :Pabaiga </dt></dl>

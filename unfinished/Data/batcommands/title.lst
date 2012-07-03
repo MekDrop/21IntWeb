@@ -1,0 +1,14 @@
+Win2000 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Title <i>pavadinimas</i><br>
+  </dt>  <dd>
+
+ Pakeièia konsolës lango pavadinimà.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  title Lango pavadinimas buvo pakeistas paleidus kazkokia "%0" komanda...</dt> </dl>

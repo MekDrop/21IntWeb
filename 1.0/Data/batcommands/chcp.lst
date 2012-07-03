@@ -1,0 +1,16 @@
+DOS 6.11 ir naujesnë operacinë sistema<br>
+ <b><br>
+Sintaksë</b><br>
+  <dl>
+  <dt>
+Chcp [kodas]<br>
+  </dt>  <dd>
+
+ Jeigu yra paraðytas kodas, ði komanda pakeièia dabartinæ kodø lentelæ  á tà, kurià atitinkà paraðytas kodas, kitu atveju parodoma dabartinë kodø  lentelë.<br>
+<br>
+<b>Áspëjimas:</b> kai kurioms operacinëms sistemoms reikia, kad bûtø ádiegta  NLSFUNC programa prieð keièiant kodø lenteles.<br>
+  </dd> </dl> <dl>
+  <dt>
+<b>Pavyzdys<br>
+</b>@echo off<br>
+  chcp </dt> </dl>
